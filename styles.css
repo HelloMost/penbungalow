@@ -1,0 +1,40 @@
+.container-fluid{
+    padding: 0;
+  }
+
+#title {
+    padding-left: 20px;
+    color: white;
+}
+
+#menutext {
+    color: white;
+    margin: auto 3rem;
+}
+
+#menutext:hover {
+    color: #996633;
+}
+
+#navbar {
+    background: black;
+    opacity: 80%;
+}
+
+
+@media screen and (max-width: 991px) {
+    #navbarTogglerDemo02 {
+      background-color: black;
+      opacity: 80%;
+    }
+
+    #title {
+      color: white;
+    }
+
+    #menutext {
+      color: white;
+      padding-left: 20px;
+      margin: 1rem 0;
+    }
+}
